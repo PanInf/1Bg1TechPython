@@ -27,3 +27,32 @@
 #     print("JEDZ ze spokojem")
 # else:
 #     print("Lepiej nie jedz, bo przekraczasz nośność konstrukcji")
+
+# Zad 5
+# a = int(input())
+# b = int(input())
+# c = int(input())
+
+# if (c>a and c<b) or (c>b and c<a):  # a<c<b or b<c<a
+#     print("TAK")
+# else:
+#     print("NIE")
+
+# Zad 6
+# a = int(input())
+# p = int(input())
+# if (a**p-a) % p == 0:
+#     print("TAK, spełnia MTF")
+# else:
+#     print("NIE, nie spełnia MTF")
+
+# Zad 7
+
+p = int(input())
+k = int(input())
+s = int(input())
+
+if p + 3*s >= k:
+    print("TAK, płaz doskoczy")
+else:
+    print("NIE, żaba nie da rady")
