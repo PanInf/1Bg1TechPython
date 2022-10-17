@@ -48,11 +48,11 @@
 
 # Zad 7
 
-p = int(input())
-k = int(input())
-s = int(input())
+# p = int(input())
+# k = int(input())
+# s = int(input())
 
-if p + 3*s >= k:
-    print("TAK, płaz doskoczy")
-else:
-    print("NIE, żaba nie da rady")
+# if p + 3*s >= k:
+#     print("TAK, płaz doskoczy")
+# else:
+#     print("NIE, żaba nie da rady")
