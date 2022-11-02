@@ -66,6 +66,16 @@
 
 # DOD - Napisz pętle sumującą liczby dwucyfrowe parzyste
 
+# Zad 6
+# Fibo wg literatury 0 1 1 2 3 5 8 13 21 34 ...
+# Fibo nasze: 1, 2, 3, 5, 8, 13 ....
+n = int(input())
+a, b = 0, 1
+for i in range(n):
+    a, b = b, a + b
+    print(b, end=" ")
+    
+
 
 
 
