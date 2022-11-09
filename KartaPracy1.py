@@ -28,3 +28,6 @@
 # Zad 7
 # a, b = int(input()), int(input())
 # print(a % b)
+
+
+print(2**7)
