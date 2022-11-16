@@ -81,16 +81,16 @@
 # Zad 3 - Hard - Spradź czy liczba wpisana przez usera jest doskonała
 # doskonała to taka, która jest równa sumie swoich dzielników bez niej samej
 
-n = 496
-suma = 0
-for i in range(1,n):
-    if n % i == 0:
-        suma = suma + i
+# n = 496
+# suma = 0
+# for i in range(1,n):
+#     if n % i == 0:
+#         suma = suma + i
         
-if suma == n:
-    print("TAK")
-else:
-    print("NIE")
+# if suma == n:
+#     print("TAK")
+# else:
+#     print("NIE")
 
 
 # Zad 4 - Medium - Oblicz sumę liczb dwucyfrowych parzystych podzielnych przez 7
