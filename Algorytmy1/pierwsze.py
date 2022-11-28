@@ -10,12 +10,27 @@
 #         exit(0)
 # print("Liczba jest pierwsza")
 
-# 2. Generowanie liczb pierwszych
+# 2. Generowanie liczb pierwszych (w przedziale [p,q])
 
+# p = int(input("Podaj od ilu mam szukać liczb pierwszych: \n"))
+# q = int(input("Podaj do ilu mam szukać liczb pierwszych: \n"))
 
-n = int(input("Podaj do ilu mam szukać liczb pierwszych: \n"))
+# for i in range(p, q+1):
+#     flaga = True
+#     for j in range(2,int(i**0.5)+1):
+#         if i % j == 0:
+#             flaga = False
+#             break
+#     if flaga == True:
+#         print(i, end=" ")
 
-for i in range(2, n+1):
+# 3. Generowanie liczb pierwszych (pierwsze n liczb pierwszych)
+
+p = int(input("Podaj ile (od początku) liczb pierwszych chcesz: \n"))
+
+i = 2
+licznik = 0
+while 1:
     flaga = True
     for j in range(2,int(i**0.5)+1):
         if i % j == 0:
@@ -23,3 +38,8 @@ for i in range(2, n+1):
             break
     if flaga == True:
         print(i, end=" ")
+        licznik += 1
+    if licznik == p:
+        break
+    else:
+        i = i + 1
